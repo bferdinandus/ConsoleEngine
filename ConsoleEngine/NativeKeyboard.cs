@@ -7,7 +7,7 @@
     /// Key code documentation:
     /// http://msdn.microsoft.com/en-us/library/dd375731%28v=VS.85%29.aspx
     /// </remarks>
-    internal enum KeyCode
+    public enum KeyCode
     {
         Escape = 0x1B,
 
@@ -47,7 +47,7 @@
     /// <summary>
     /// Provides keyboard access.
     /// </summary>
-    internal static class NativeKeyboard
+    public static class NativeKeyboard
     {
         /// <summary>
         /// A positional bit flag indicating the part of a key state denoting

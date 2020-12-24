@@ -82,7 +82,7 @@ namespace ConsoleEngine
             return true;
         }
 
-        public async void Start()
+        public void Start()
         {
             _loopActive = true;
 
